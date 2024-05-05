@@ -1,7 +1,7 @@
-const API_KEY = 'R3z2ePRigITkSnBcxpDwCDI3x7zbV5mSP4VQZddy';
+// const API_KEY = 'R3z2ePRigITkSnBcxpDwCDI3x7zbV5mSP4VQZddy';
 
 export async function fetchAstronomyData() {
-  const url = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
+  const url = `https://api.nasa.gov/planetary/apod?api_key=R3z2ePRigITkSnBcxpDwCDI3x7zbV5mSP4VQZddy`;
   
   try {
     const response = await fetch(url);
