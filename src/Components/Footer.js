@@ -30,7 +30,7 @@ export default function Footer() {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2020 Copyright:
-        <a className='text-white' target="_blank" href='https://data.nasa.gov/'>
+        <a className='text-white' target="_blank" href='https://data.nasa.gov/'  rel="noreferrer">
         data.nasa.gov
         </a>
       </div>
